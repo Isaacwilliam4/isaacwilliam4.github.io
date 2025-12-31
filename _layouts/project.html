@@ -1,0 +1,29 @@
+---
+layout: default
+---
+
+<article class="project">
+  <p class="muted"><a href="/projects/">← Back to Projects</a></p>
+
+  <h1>{{ page.title }}</h1>
+
+  {% if page.summary %}
+    <p class="lede">{{ page.summary }}</p>
+  {% endif %}
+
+  {% if page.links %}
+    <div class="pill-row">
+      {% for item in page.links %}
+        <a class="pill" href="{{ item.url }}">{{ item.label }}</a>
+      {% endfor %}
+    </div>
+  {% endif %}
+
+  {% if page.stack %}
+    <p class="muted"><strong>Stack:</strong> {{ page.stack | join: ", " }}</p>
+  {% endif %}
+
+  <hr />
+
+  {{ content }}
+</article>
