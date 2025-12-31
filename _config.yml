@@ -1,15 +1,10 @@
 title: Isaac Peterson
-description: Robotics • Reinforcement Learning • Simulation • Multi-Agent Systems
-theme: jekyll-theme-hacker
-
-# Site identity (used in footer/links)
+description: Robotics • Multi-Agent RL • Simulation
 github_username: Isaacwilliam4
 linkedin_url: https://www.linkedin.com/in/isaac-w-peterson/
 
-# Build settings
 markdown: kramdown
 
-# Projects collection
 collections:
   projects:
     output: true

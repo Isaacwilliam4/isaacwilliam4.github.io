@@ -1,0 +1,37 @@
+---
+layout: default
+title: Projects
+permalink: /projects/
+---
+
+<h1>Projects</h1>
+<p class="muted">
+  Highlights below. Each project lives in <code>/_projects/</code>.
+</p>
+
+<div class="project-list">
+  {% assign sorted = site.projects | sort: "title" %}
+  {% for project in sorted %}
+    <div class="card project-card">
+      <h2 class="project-title">
+        <a href="{{ project.url | relative_url }}">{{ project.title }}</a>
+      </h2>
+
+      {% if project.summary %}
+        <p class="muted">{{ project.summary }}</p>
+      {% endif %}
+
+      {% if project.stack %}
+        <p class="muted"><strong>Stack:</strong> {{ project.stack | join: ", " }}</p>
+      {% endif %}
+
+      {% if project.links %}
+        <div class="pill-row">
+          {% for item in project.links %}
+            <a class="pill" href="{{ item.url }}">{{ item.label }}</a>
+          {% endfor %}
+        </div>
+      {% endif %}
+    </div>
+  {% endfor %}
+</div>
