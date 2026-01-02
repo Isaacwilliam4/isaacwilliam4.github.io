@@ -4,7 +4,7 @@ summary: Reinforcement learning client + Java server pipeline for optimization-d
 stack: [Python, Java, RL, Optimization]
 links:
   - label: GitHub
-    url: https://github.com/Isaacwilliam4
+    url: https://github.com/DIRECTLab/EvMatsim
 ---
 
 Developed an end-to-end pipeline connecting an RL client with a Java-based server component for EV charger placement optimization.

@@ -4,7 +4,7 @@ summary: Scalable multi-agent learning workflows in Isaac Lab for coordinated ro
 stack: [Isaac Lab, PyTorch, Multi-Agent RL, Simulation]
 links:
   - label: GitHub
-    url: https://github.com/Isaacwilliam4
+    url: https://directlab.github.io/IsaacLab-HARL/
   - label: IROS 2025 DOI
     url: https://doi.org/10.1109/IROS60139.2025.11247098
 ---

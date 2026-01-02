@@ -6,7 +6,7 @@ links:
   - label: arXiv
     url: https://arxiv.org/abs/2510.01264
   - label: GitHub
-    url: https://github.com/Isaacwilliam4
+    url: https://directlab.github.io/IsaacLab-HARL/
 ---
 
 A framework-oriented project aimed at making heterogeneous multi-agent adversarial learning reproducible and scalable in Isaac Lab.

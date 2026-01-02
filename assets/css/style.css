@@ -46,7 +46,12 @@ a:hover { color: var(--link-hover); text-decoration: underline; }
   gap: 16px;
 }
 
-.nav-title { font-size: 20px; font-weight: 800; }
+.nav-title {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+}
+
 .nav-links a { margin-left: 14px; }
 
 .muted { color: var(--muted); }
@@ -89,3 +94,32 @@ hr {
 }
 
 pre, code, table { max-width: 100%; overflow-x: auto; }
+
+.avatar {
+  width: 28px;
+  height: 28px;
+  border-radius: 999px;
+  object-fit: cover;
+  border: 1px solid var(--border);
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+.hero-top {
+  display: flex;
+  gap: 18px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.profile-pic {
+  width: 200px;
+  height: 200px;
+  border-radius: 999px;
+  object-fit: cover;
+  border: 1px solid var(--border);
+  background: var(--panel);
+}
+
+.hero-title { margin: 0 0 8px 0; }
+.hero-subtitle { margin: 0; max-width: 70ch; }

@@ -5,6 +5,8 @@ stack: [Computer Vision, PyTorch, GCP, Data Pipelines]
 links:
   - label: Related preprint
     url: https://arxiv.org/abs/2506.04517
+  - label: Github
+    url: https://github.com/afrl-quantum/ml-imaging
 ---
 
 Built and trained CV models for detecting cold atom clouds for quantum experimentation, scaling training and processing over large datasets (30+ TB).
